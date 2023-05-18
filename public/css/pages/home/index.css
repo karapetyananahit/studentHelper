@@ -1,0 +1,156 @@
+.welcome{
+    background: url(/img/index2.jpg) left center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.welcome .opacity_block{
+    width: 100%;
+    padding: 193px 0;
+    background: rgba(0,0,0,0.63);
+}
+
+.services{
+    justify-content: space-between;
+}
+
+.service{
+    position: relative;
+    width: 48%;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+
+.service_content{
+
+}
+
+.service i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.opinions{
+    justify-content: space-between;
+}
+.opinion{
+    position: relative;
+    padding: 20px 20px 20px 80px;
+    width: 48%;
+    background-color: #282828;
+    border-radius: 8px;
+    border: 2px solid #444;
+    margin-bottom: 30px;
+}
+.opinion_image{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+.opinion_info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.future{
+    background: var(--grey-dark);
+    padding: 40px 0;
+}
+
+
+.js_task li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.js_task li i{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: var(--blue);
+    font-size: 12px;
+}
+
+.future_info{
+    width: 48%;
+}
+.future_img{
+    width: 48%;
+}
+
+/*.task_points{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.task_point{*/
+/*    width: 24%;*/
+/*    background: #51abfeb3;*/
+/*    color: var(--white);*/
+/*    border-radius: 5px;*/
+/*    padding: 10px 20px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.task_point_value{*/
+/*    font-size: 24px;*/
+/*    text-align: center;*/
+/*}*/
+/*.task_point_info{*/
+
+/*}*/
+
+
+@media (max-width: 786px) {
+    .welcome .opacity_block{
+        padding: 150px 0;
+    }
+    .service {
+        width: 100%;
+    }
+    .opinion{
+        width: 100%;
+    }
+    .future .flex{
+        flex-direction: column-reverse;
+    }
+    .future_info{
+        width: 100%;
+    }
+    .future_img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .welcome .opacity_block{
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 468px) {
+    .service{
+        padding-left: 0;
+    }
+    .service i{
+        display: none;
+    }
+    .opinion{
+        padding: 15px;
+    }
+    .opinion_info{
+        height: auto;
+    }
+    .opinion_image{
+        position: static;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+}

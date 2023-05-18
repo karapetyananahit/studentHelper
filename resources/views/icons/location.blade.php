@@ -1,0 +1,1 @@
+<i class="fas fa-map-marker-alt {{isset($iconClass) ? $iconClass : ''}}"></i>

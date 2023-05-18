@@ -1,0 +1,1 @@
+<i class="fas fa-user-minus {{isset($iconClass) ? $iconClass : ''}}"></i>

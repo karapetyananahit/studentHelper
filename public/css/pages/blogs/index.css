@@ -1,0 +1,15 @@
+
+.blog{
+    width: 48%;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+.blogs >a >p{
+    padding: 10px 20px;
+}
+
+@media(max-width: 600px){
+    .blog{
+        width: 100%;
+    }
+}

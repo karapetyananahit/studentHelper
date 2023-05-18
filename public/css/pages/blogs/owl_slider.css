@@ -1,0 +1,23 @@
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 7px 2px #5659a8;
+}
+.owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+
+}
+.owl-item:not(.center) > div:hover {
+    opacity: .75;
+}
+.owl-stage-outer{
+    padding: 20px !important;
+}
+.owl-item:not(.active){
+    opacity: 0;
+    transition: 2s;
+}

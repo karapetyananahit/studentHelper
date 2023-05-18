@@ -1,0 +1,7 @@
+.contact_info{
+    justify-content: space-between;
+}
+
+.contact_info > div{
+    width: 48%;
+}

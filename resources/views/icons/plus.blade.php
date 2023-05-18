@@ -1,0 +1,1 @@
+<i class="fas fa-plus {{isset($iconClass) ? $iconClass : ''}}"></i>

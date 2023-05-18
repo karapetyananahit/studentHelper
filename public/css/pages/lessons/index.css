@@ -1,0 +1,59 @@
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lesson {
+    width: 30%;
+    background: var(--grey-dark);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 5%;
+}
+.lesson:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.lesson:nth-child(3n){
+    margin-right: 0;
+}
+
+.lesson_info {
+    padding: 10px 15px 20px;
+}
+
+.lesson_name {
+    font-size: 28px;
+    margin-bottom: 20px;
+    /*color: var(--blue);*/
+    font-weight: bold;
+}
+
+.lesson_info p {
+    margin-bottom: 10px;
+}
+
+.lesson_button {
+    margin-top: 30px;
+}
+
+.lesson_button a {
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .lessons{
+        justify-content: space-between;
+    }
+    .lesson{
+        width: 48%;
+        margin-right: 0!important;
+    }
+}
+
+@media (max-width: 700px){
+    .lesson{
+        width: 100%;
+    }
+}

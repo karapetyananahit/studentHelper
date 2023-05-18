@@ -1,0 +1,1 @@
+<i class="fas fa-trash {{isset($iconClass) ? $iconClass : ''}}" {{isset($data) ? $data : ''}}></i>
